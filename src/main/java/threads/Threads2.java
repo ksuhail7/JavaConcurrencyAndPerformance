@@ -43,7 +43,7 @@ public class Threads2 {
             String input = br.readLine();
             if ("q".equalsIgnoreCase(input.trim())) {
 
-                System.exit(1);
+                thread.interrupt();
             }
         } catch(IOException ioe) {
             logger.info("caught io exception: " + ioe.getMessage());
