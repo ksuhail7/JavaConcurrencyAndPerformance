@@ -3,3 +3,6 @@
 .idea/vcs.xml
 out/
 .idea/
+.gradle/
+src/main/main.iml
+build/
