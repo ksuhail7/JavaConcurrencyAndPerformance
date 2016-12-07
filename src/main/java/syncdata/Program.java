@@ -7,7 +7,7 @@ import java.util.logging.Logger;
  */
 public class Program {
     private static final Logger logger = Logger.getLogger("Program");
-    public static final int threadCount = 10;
+    public static final int threadCount = 100;
     public static final int iterationCount = 1000000;
 
     public static void main(String[] args) {
